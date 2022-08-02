@@ -1,0 +1,18 @@
+{
+  "name": "forkful",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ForkFul - Recipe finder with auto-generated shopping list (MERN 2021-2022 portfolio)",
+  "engines": {
+    "node": ">=16 <17"
+  },
+  "scripts": {
+    "install:all": "npm install && npm --prefix server install && npm --prefix client install",
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client start",
+    "dev": "concurrently -k -n server,client -c yellow,cyan \"npm run server\" \"npm run client\""
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
