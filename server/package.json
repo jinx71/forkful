@@ -5,7 +5,7 @@
   "description": "ForkFul backend - Express + Mongoose proxy for TheMealDB with auto shopping list",
   "main": "src/server.js",
   "engines": {
-    "node": ">=16 <17"
+    "node": ">22"
   },
   "scripts": {
     "start": "node src/server.js",

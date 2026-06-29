@@ -4,7 +4,7 @@
   "private": true,
   "description": "ForkFul - Recipe finder with auto-generated shopping list (MERN 2021-2022 portfolio)",
   "engines": {
-    "node": ">=16 <17"
+    "node": ">22"
   },
   "scripts": {
     "install:all": "npm install && npm --prefix server install && npm --prefix client install",
